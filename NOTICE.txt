@@ -1,0 +1,6 @@
+Adapted modules in Cyclop Personal:
+macOCR v1.4.0 — https://github.com/schappim/macOCR — Copyright 2021 Marcus Schappi (MIT).
+OCRStore.swift adapts the VNRecognizeTextRequest / top candidate pipeline; the app uses its own selection and translation flow.
+Stats v3.0.22 — https://github.com/exelban/stats — Copyright 2019 Serhiy Mytrovtsiy (MIT).
+SystemMonitor.swift adapts host CPU statistics and RAM page accounting; a compact native UI replaces the standalone app.
+No telemetry, remote Stats service, fan control or privileged helper is integrated.
